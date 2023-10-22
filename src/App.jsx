@@ -1,5 +1,7 @@
 import "./App.css";
-import ToDoApp from "./components/home/ToDoApp";
+import ParentComponent from "./components/context-api/ParentComponent";
+// import ToDoApp from "./components/home/ToDoApp";
+// import ShoppingApp from "./components/shopping/ShoppingApp";
 // import Counter from "./common/Counter";
 // import Header from "./common/Header";
 
@@ -9,7 +11,9 @@ function App() {
     <div>
       {/* <Header /> */}
       {/* <Counter /> */}
-      <ToDoApp />
+      {/* <ToDoApp /> */}
+      {/* <ShoppingApp /> */}
+      <ParentComponent />
     </div>
   );
 }
