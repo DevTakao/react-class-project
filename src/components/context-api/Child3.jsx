@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { StateContext } from "./ParentComponent";
+import { StateContext } from "../../App";
 
 const Child3 = () => {
   console.log("Child3");

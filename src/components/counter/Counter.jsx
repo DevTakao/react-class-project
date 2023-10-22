@@ -21,7 +21,9 @@ const Counter = () => {
     <div>
       <div>Count: {count}</div>
       {isEven() && <p>The count is even.</p>}
-      <button onClick={decreaseRandom}>-</button>
+      <button onClick={decreaseRandom} style={{ padding: "7px 12px", backgroundColor: "red" }}>
+        Decrease
+      </button>
     </div>
   );
 };
